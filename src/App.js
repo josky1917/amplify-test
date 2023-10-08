@@ -17,10 +17,6 @@ function App({ signOut }) {
         <Heading level={1}>We now have Auth!</Heading>
       </Card>
       <Button onClick={signOut}>Sign Out</Button>
-      <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          杨珂是个勺
-        </p>
     </View>
   );
 }
