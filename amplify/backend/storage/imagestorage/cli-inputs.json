@@ -2,13 +2,23 @@
   "resourceName": "imagestorage",
   "policyUUID": "13181c73",
   "bucketName": "myamplifyappbucket",
-  "storageAccess": "auth",
-  "guestAccess": [],
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
   "authAccess": [
     "CREATE_AND_UPDATE",
     "READ",
     "DELETE"
   ],
-  "triggerFunction": "NONE",
-  "groupAccess": {}
+  "groupAccess": {
+    "client": [
+      "READ"
+    ],
+    "admin": [
+      "CREATE_AND_UPDATE",
+      "READ",
+      "DELETE"
+    ]
+  }
 }

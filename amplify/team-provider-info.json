@@ -13,7 +13,8 @@
     },
     "categories": {
       "auth": {
-        "amplifytestef8ef7e0": {}
+        "amplifytestef8ef7e0": {},
+        "userPoolGroups": {}
       },
       "api": {
         "amplifytest": {}
